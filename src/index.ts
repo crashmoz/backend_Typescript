@@ -27,8 +27,7 @@ server.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}/ `);
 });
 
-const MONGO_URL =
-  "mongodb+srv://ismail:setiawan@cluster0.xftdzix.mongodb.net/?retryWrites=true&w=majority";
+const MONGO_URL = "";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
